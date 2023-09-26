@@ -28,13 +28,15 @@ h3{font-family: "turnip", serif;
     line-height: 0.5;
     color:white}
 
-
+.paragraph
+{
+    width: 100%;
+}
 
 p{
     font-family:"roc-grotesk", sans-serif;
     font-weight: 400;
     font-style: normal;
-    width: 100%;
     font-size: 20px;
     line-height: 30px;
     color: white;
