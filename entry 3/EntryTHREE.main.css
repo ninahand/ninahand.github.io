@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'LORE';
+    src: url('fonts/LORE-Regular.woff2') format('woff2'),
+    url('fonts/LORE-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    }
+.Ugly Dave {
+        font-family: 'LORE';
+      }
+
+
+h2{font-family: "turnip", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 60px;
+    color:white;
+    line-height: 0.5;
+    }
+
+h3{font-family: "turnip", serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    font-size: 40px;
+    line-height: 0.5;
+    color:white}
+
+
+
+p{
+    font-family:"roc-grotesk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+    
+
+pre{
+    font-family:"roc-grotesk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+    
+body{background-image: url("images/IndigoTexture.jpg");
+
+}  
+
+img {
+    width: 50%;
+    float: right;
+    margin-right: 25px;
+   
+}
+
+h4{
+    font-family: "Ugly Dave";
+    color: #00416a;
+    width:35%;
+    margin-left: 25px;
+    font-size: 20px;
+    background-color: rgb(250, 234, 214);
+}
+
+
+.image-container {
+    float: left;
+    width: 100%;
+    font-family:"roc-grotesk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    margin-left: 5px;
+    margin-right: 40px;
+    
+}
+
+
+.stitch-container {
+    display: inline-block; 
+    width: 20%;
+    height: auto;
+
+}
+
+.last-image-container {
+        display: flex;
+        justify-content: center;      
+        width: 100%;
+        height: auto; 
+        padding: 40px;
+        margin-bottom: 50px;
+    
+      /* I used ChatGPT here to help me get this image align properly in the center! */
+    }
+
+
+    /*  border: 1px solid red;  */
