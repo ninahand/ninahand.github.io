@@ -10,7 +10,6 @@
         font-family: 'LORE';
       }
 
-
 h2{font-family: "turnip", serif;
     font-weight: 400;
     font-style: normal;
@@ -89,13 +88,6 @@ h4{
     
 }
 
-img {
-    width: 50%;
-    float: right;
-    margin-right: 25px;
-   
-}
-
 .stitch-container {
     display: inline-block; 
     width: 100%;
@@ -113,6 +105,3 @@ img {
     
       /* I used ChatGPT here to help me get this image align properly in the center! */
     }
-
-
-    /*  border: 1px solid red;  */
