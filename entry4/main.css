@@ -1,0 +1,142 @@
+.heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* I used ChatGPT to help me set up a flex container so my images could line up correctly! Thanks ChatGPT! */
+.text {
+    flex: 1;
+    padding: 20px;
+}
+
+.heading-climber {
+    flex: 1;
+    padding: 10px;
+    justify-content: right;
+    max-width: 50%;
+    height: auto;
+    transition: all 1s ease;
+
+}
+.heading-climber:hover{
+     -webkit-transform: rotate(15deg) scale(1);
+     transform: rotate(-15deg) scale(1);
+
+}
+
+.body-container{
+    float: right;
+    width: 100%;
+    font-family:"roc-grotesk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #94611E;
+    margin-left: 5px;
+    margin-right: 40px;
+}
+
+.body-climber {
+    width: 50%;
+    float: left;
+    margin-right: 25px;
+    transition: all 1s ease;
+   
+}
+
+img:hover{
+    -webkit-transform: rotate(15deg) scale(1);
+    transform: rotate(-15deg) scale(1);
+  
+}
+
+pre{
+    font-family:"roc-grotesk", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color:#94611E;
+}
+
+
+h1{
+    font-family: "massilia", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 120px;
+    text-align: center;
+    color:#161AE0;
+    margin-bottom: 1px;
+}
+
+h2{
+    font-family: "massilia", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 70px;
+    text-align: center;
+    color:#161AE0;
+    margin-top: 1px;
+
+}
+
+h2:hover{
+    font-family: "massilia", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: #fa4407;
+}
+
+body{
+ background-color: #BECC75;
+ margin-left: 5%;
+ margin-right: 5%;
+ margin-bottom: 5%;
+ cursor: url(images/holdcursor.png), auto;
+    
+}
+
+.quotation:hover{
+    font-family:"roc-grotesk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color:#161AE0;
+    display: inline;
+    margin: 0;
+    white-space: nowrap;
+   
+}
+
+.quotation{
+    font-family:"roc-grotesk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    display: inline;
+    margin: 0;
+    white-space: nowrap; 
+}
+
+/* Used ChatGPT to help me get rid of linebreaks during the hovers */
+
+
+.paragraphone{
+    font-family:"roc-grotesk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color:#94611E;
+
+
+
+}
+.wikipedia{
+    font-family:"roc-grotesk", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    color:#94611E;
+ 
+}
