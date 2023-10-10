@@ -28,29 +28,60 @@ h2{
     color: #000080
 }
 
+
 h2:hover{
     font-family: "gyst-variable", sans-serif;
     font-variation-settings: "wght" 300;
+    font-style: italic;
     text-align: center;
     font-size: 80px; 
     line-height: 40%;
+    
 }
 
 p{
     font-family:"roc-grotesk", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
     font-size: 15px;
     text-align: center;
-    color: #000080
+    color: 	#000080
 }
 
+.audiocontainer{
+    width: 400px;
+    height: 400px;
+}
 .audio {  
     position: sticky;
     top: 10px;
     right: 40px;
     width: 40%;
 }
+
+.audio:hover .audioexplain{
+        display: block;
+    }
+
+.audioexplain {
+    display: none;
+    padding: 10px;
+    text-align: left;
+    font-family:"gyst-variable", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    width: 110%;
+    margin-left: 5%;
+    color: #000080
+}
+/* used ChatGPT here to help me figure out what I was doing wrong with this govering thing!*/
+
+.image-container:hover .text-container {
+    display: block;
+}
+
+
 .videocontainer{
     text-align: center;
 }
@@ -58,6 +89,26 @@ video {
     width: 75%;
     height: auto;
 
+
+}
+
+.quotation{
+    font-family:"roc-grotesk", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: #b39283;
+    display: inline;
+    margin: 0;
+    white-space: nowrap;
+}  
+
+.quotation:hover{
+    font-family:"roc-grotesk", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: #916a59;
 
 }
 
@@ -89,10 +140,15 @@ video {
 }
 
 
-.lily1{
+.lily4{
     width: 45%;
     height: auto;
 
+}
+
+
+.lily4:hover{
+    background: url("images/lily2.jpg")
 }
   
 .imageone{
@@ -155,7 +211,7 @@ video {
     text-align: left;
     float: left;
     position: relative;
-    bottom: 825px;
+    bottom: 1000px;
 }
 
 .imagethree{
@@ -169,6 +225,7 @@ video {
     text-align: right;
     margin-right: 5%;
     position: relative;
-    bottom: 625px;
+    bottom: 725px;
 
 }
+
