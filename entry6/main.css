@@ -4,8 +4,8 @@ body{
     background-color: #2B2D2F;
 }
 pre{
-    font-family: "alfabet", sans-serif;
-    font-weight: 500;
+   font-family: ff-basic-gothic-pro, sans-serif;
+    font-weight: 200;
     font-style: normal;
     font-size: 20px;
     color: #710C04;
@@ -104,7 +104,7 @@ h6{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 100px;
     margin-left: 10px;
     margin-right: 10px;
     height: 300px;
@@ -172,6 +172,24 @@ h6{
     margin-right: 10px;
   }
 
+.paragraphthree{
+    float: left;
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    clear: left;
+}
+.paragraphfour{
+    float: right;
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    clear: right; 
+}
+
+
 
 @media (max-width:850px) {
     body {
@@ -214,5 +232,12 @@ h6{
     .sectionone {
         justify-content: center;
       }
-
+    .paragraphthree{
+       text-align: center;
+       width: 100%;
+    }
+    .paragraphfour{
+        text-align: center;
+        width: 100%;
+     }
   }
