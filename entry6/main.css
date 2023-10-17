@@ -167,6 +167,7 @@ h6{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 100%;
     margin-top: 30px;
     margin-left: 10px;
     margin-right: 10px;
@@ -174,21 +175,50 @@ h6{
 
 .paragraphthree{
     float: left;
-    width: 50%;
+    width: 45%;
     margin-top: 30px;
     margin-left: 10px;
     margin-right: 10px;
-    clear: left;
 }
 .paragraphfour{
     float: right;
-    width: 50%;
+    width: 45%;
     margin-top: 30px;
     margin-left: 10px;
     margin-right: 10px;
-    clear: right; 
+    text-align: right;
 }
 
+.photostrips{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.photostrip1{
+    background-image: url('images/horizontal1.png');
+    width: 1000px;
+    height: 300px;
+    padding: 10px;
+    margin-left: 10%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: sticky;
+    top: 20px;
+    
+
+}
+
+.paragraphfive, .paragraphsix{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 10px;
+    margin-right:10px;
+
+}
 
 
 @media (max-width:850px) {
@@ -232,12 +262,8 @@ h6{
     .sectionone {
         justify-content: center;
       }
-    .paragraphthree{
+    .paragraphthree, .paragraphfour,.paragraphfive, .paragraphsix{
        text-align: center;
        width: 100%;
     }
-    .paragraphfour{
-        text-align: center;
-        width: 100%;
-     }
   }
