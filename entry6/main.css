@@ -1,0 +1,218 @@
+
+
+body{
+    background-color: #2B2D2F;
+}
+pre{
+    font-family: "alfabet", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: #710C04;
+}
+h1{
+    font-family: "ff-providence-sans-web-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 100px;
+    line-height: 70%;
+    color: #e6ddc5;
+}
+
+h2{ 
+    font-family: "ff-providence-sans-web-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 60px;
+    line-height: 40%;
+    color: #e6ddc5;
+}
+
+
+p{
+    font-family: ff-basic-gothic-pro, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    color: #e6ddc5;
+}
+
+.hiddentext{
+    display:none;
+    position: absolute;
+    right: 130px;
+    top: 270px;
+}
+
+h2:hover + .hiddentext {
+    display: inline;
+}
+
+h6{
+    font-family: "ff-providence-sans-web-pro", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40%;
+    font-style: italic;
+    color: #710C04;
+}
+
+.sectionone {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 450px;
+  }
+
+.photoone{
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+.arineg4, .aripos4 {
+    width: 450px;
+    height: 450px;
+  }
+
+  .arineg4 {
+    background-image: url('images/arineg4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+  .photoone:hover .arineg4 {
+      background-image: url('images/aripos4.png');
+      transition: all 3s ease;
+  }
+
+/* had help here from friends + ChatGPT since I've been having such trouble changing images on the hover! */
+
+
+.paragraphone{ 
+    width: 60%;
+    height: auto;
+}
+
+.sectiontwo{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 300px;
+  }
+
+.paragraphtwo{
+    width: 40%;
+    height: auto;
+}
+
+.setofphotos{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100px;
+    align-items: center;
+    margin-right: 400px;
+}
+/* had a lot of trouble here getting the photos to center themselves within their child container,
+ so i just made the right margin really large*/
+
+.arineg1, .arineg2, .arineg3{
+    width: 300px;
+    height: 550px;
+    padding: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.arineg1{
+    background-image: url('images/arineg1.png');
+
+}
+.arineg2{
+    background-image: url('images/arineg2.png');
+    
+}
+
+.arineg3{
+    background-image: url('images/arineg3.png');
+}
+
+.arineg1:hover{
+    background-image: url('images/aripos1.png');
+    transition: all 3s ease;
+}
+
+.arineg2:hover{
+    background-image: url('images/aripos2.png');
+    transition: all 3s ease;
+}
+
+.arineg3:hover{
+    background-image: url('images/aripos3.png');
+    transition: all 3s ease;
+}
+
+.sectionthree{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+
+@media (max-width:850px) {
+    body {
+        background-color:black;
+    }
+    
+    .paragraphone{ 
+        color: gray;
+        
+    }
+    p{
+        color: gray;
+    }
+    h1{
+        font-size: 80px;
+        line-height: 100%;
+        color: blue;
+    }
+    h2{ 
+        color: blue;
+        font-size: 40px;
+    }
+    .hiddentext{
+        right: 70px;
+        top: 230px;
+    }
+    .paragraphone{ 
+        width: 100%;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+    }
+    .paragraphtwo{
+        margin-top: 100px;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+    }
+    .sectionone {
+        justify-content: center;
+      }
+
+  }
