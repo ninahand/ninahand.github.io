@@ -92,6 +92,11 @@ h6{
       transition: all 3s ease;
   }
 
+  p::selection {
+    background: #710C04;
+    color: #2B2D2F;
+  }
+
 /* had help here from friends + ChatGPT since I've been having such trouble changing images on the hover! */
 
 

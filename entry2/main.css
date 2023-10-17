@@ -2,70 +2,105 @@ body{
 	background-color:rgb(198, 181, 167);
 }
 
-
-div{
-	background-color: rgba(134, 114, 98, 0.509)
+.header{
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-h3{
-	font-size: 80px;
-	color: rgb(0, 32, 126);
-	margin-left: 80;
-	margin-top: 90;
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: bold;
+.imagecontainer1{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.elleimage{ 
+	width: 40%;
+
+}
+
+.carving1{
+	width: 30%;
+}
+.paragraphtwo{
+	width: 60%;
+	justify-content: right;
+}
+h1, h2{
+	font-family: "vendetta", serif;
+	font-weight: 300;
+	font-style: normal;
 	text-align: center;
-
+	line-height: 10px;
+	color: white;
 }
 
-h4 {
-	font-size: 60px;
-	color: rgb(2, 22, 83);
-	text-align: center;
-	line-height: normal;
-	font-family: Arial, Helvetica, sans-serif;
-
+h1{
+	font-size:120px;
 }
+h2{
+	font-size: 100px;
+}
+.paragraphs{
+	display: flex;
+	flex-wrap: wrap;
+	font-family: panel-sans, sans-serif;
+	font-weight: 300;
+	color:white;
+	line-height: 20px;
+	margin-right: 10%;
+	margin-left: 5%;
 	
-
-pre{
-	color: rgb(3, 3, 159);
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: bold;
-
-
 }
 
 h6{ 
-	color: rgb(3, 3, 159);
-	font-family: 'Times New Roman', Times, serif;
-	margin-left: 60px;
+	font-family: panel-sans, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	font-size: 15px;
+	text-align: right;
 
 }
 
 h5{
-	color: rgb(3, 3, 159);
-	font-family: 'Times New Roman', Times, serif;
-	margin-left: 60px;
-	line-height: 0px ;
-	font-size: 18px;
+	font-size: 20px;
 }
+
+h5:hover{
+	color: #d7e3fc;
+	font-style: italic;
+}
+
+	
+
+pre{
+	color:#d7e3fc;
+	font-family: panel-sans, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 20px;
+
+}
+
+
 
 
 h7{ 
-	color: rgb(3, 3, 159);
-	font-family: 'Times New Roman', Times, serif;
+	font-family: "vendetta", serif;
+	font-weight: 600;
+	font-style: normal;
 	margin-left: 60px;
-	font-size: 13px;
+	font-size: 20px;
+	color:#d7e3fc;
 
 	}
 
-a{ color: rgb(159, 141, 3);
-	font-family: 'Times New Roman', Times, serif;
-	margin-left: 60px;
-	font-size: 14px;
-	margin-bottom: 60px;
 
-}
-	
+@media (max-width:850px) {
+    .elleimage {
+        width: 100%;}
+	h1{
+		line-height: 90px; 
+	}
+    }
