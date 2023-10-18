@@ -10,6 +10,9 @@
         font-family: 'LORE';
       }
 
+body{background-image: url("images/texture.jpeg");
+
+      }  
 h2{font-family: "turnip", serif;
     font-weight: 400;
     font-style: normal;
@@ -51,12 +54,9 @@ pre{
     width: 100%;
     font-size: 20px;
     line-height: 30px;
-    color: white;
+    color: yellow;
 }
     
-body{background-image: url("images/texture.jpeg");
-
-}  
 
 img {
     width: 50%;
