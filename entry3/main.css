@@ -54,7 +54,7 @@ pre{
     color: white;
 }
     
-body{background-image: url("images/indigotexture.jpg");
+body{background-image: url("images/texture.jpg");
 
 }  
 
@@ -89,7 +89,9 @@ h4{
 }
 
 .stitch-container {
-    display: inline-block; 
+    display: flex;
+    flex:wrap;
+    justify-content: space-between; 
     width: 100%;
     height: auto;
 

@@ -9,23 +9,40 @@ body{
 	justify-content: center;
 	align-items: center;
 }
-
-.imagecontainer1{
-	display:flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
 .elleimage{ 
 	width: 40%;
+	height: auto;
 
 }
-
-.carving1{
+.sectiontwo{ 
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 100%;
+	height: auto;
+}
+.imagecontainerone{
 	width: 30%;
+	height:auto;
+	margin-left: 5%;
+}
+.carvingone{
+	width: 400px;
+	height: auto;
+	float: left;
+	margin-right: 2%;
 }
 .paragraphtwo{
-	width: 60%;
+	width: 50%;
 	justify-content: right;
+	display: flex;
+	flex-wrap: wrap;
+	font-family: panel-sans, sans-serif;
+	font-weight: 300;
+	color:white;
+	line-height: 20px;
+	margin-right: 10%;
+	margin-left: 5%;
 }
 h1, h2{
 	font-family: "vendetta", serif;
@@ -42,7 +59,7 @@ h1{
 h2{
 	font-size: 100px;
 }
-.paragraphs{
+.sectionone, .sectionthree{
 	display: flex;
 	flex-wrap: wrap;
 	font-family: panel-sans, sans-serif;
@@ -54,17 +71,23 @@ h2{
 	
 }
 
-h6{ 
+h5, h6{ 
 	font-family: panel-sans, sans-serif;
 	font-weight: 400;
 	font-style: normal;
+}
+
+h6{ 
 	font-size: 15px;
 	text-align: right;
+	
 
 }
 
 h5{
+	font-weight: 600;
 	font-size: 20px;
+	line-height: 30px;
 }
 
 h5:hover{
@@ -84,8 +107,6 @@ pre{
 }
 
 
-
-
 h7{ 
 	font-family: "vendetta", serif;
 	font-weight: 600;
@@ -102,5 +123,26 @@ h7{
         width: 100%;}
 	h1{
 		line-height: 90px; 
+	}
+	h5{
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.sectiontwo{
+		flex-direction: column;
+		width: 100%;
+		height: auto;
+	}
+	.paragraphtwo{
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+
+	}
+	.imagecontainerone{
+		width: 100%;
+		height: auto;
+		justify-content: center;
 	}
     }
