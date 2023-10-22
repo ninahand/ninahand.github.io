@@ -107,3 +107,26 @@ h4{
     
       /* I used ChatGPT here to help me get this image align properly in the center! */
     }
+
+.bottomnavigation{
+    font-family:"roc-grotesk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 10%;
+}
+
+.lastweek{
+    float: left;
+}
+
+.nextweek{
+    float: right;
+}
+a{
+    color: white;
+}

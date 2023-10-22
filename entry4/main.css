@@ -140,3 +140,21 @@ body{
     color:#94611E;
  
 }
+
+.bottomnavigation{
+    font-family:"roc-grotesk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color:#94611E;
+    margin-bottom: 10%;
+    cursor: url(images/holdcursor.png), auto;
+}
+
+.lastweek{
+    float: left;
+}
+
+.nextweek{
+    float: right;
+}

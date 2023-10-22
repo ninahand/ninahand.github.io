@@ -4,11 +4,11 @@ body{
     background-color: #2B2D2F;
 }
 pre{
-   font-family: ff-basic-gothic-pro, sans-serif;
+    font-family: ff-basic-gothic-pro, sans-serif;
     font-weight: 200;
     font-style: normal;
     font-size: 20px;
-    color: #710C04;
+    color: #981208;
 }
 h1{
     font-family: "ff-providence-sans-web-pro", sans-serif;
@@ -225,7 +225,20 @@ h6{
 
 }
 
+.bottomnavigation{
+    font-family: ff-basic-gothic-pro, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+}
 
+.lastweek{
+    float: left;
+    margin-bottom: 10%;
+}
+a{
+    color: #e6ddc5;
+}
 @media (max-width:850px) {
     body {
         background-color:black;

@@ -224,3 +224,23 @@ video {
 
 }
 
+.bottomnavigation{
+    width: 100%; 
+    height: auto;
+    font-family: "gyst-variable", sans-serif;
+    font-variation-settings: "wght" 600;
+    text-align: center;
+    font-size:30px; 
+    line-height: 40%;
+    color: 	#000080;
+    
+}
+
+.lastweek{
+    float: left;
+}
+
+.nextweek{
+    float:right;
+
+}
