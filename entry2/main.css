@@ -116,13 +116,20 @@ h7{
 	color:#d7e3fc;
 
 	}
-.nextweek{
+
+.bottomnavigation{
 	font-family: panel-sans, sans-serif;
 	font-weight: 600;
 	color:white;
 	margin-right: 2%;
-	float: right;
 	margin-bottom: 5%;
+	text-align: center;
+}
+.nextweek{
+	float: right;
+}
+.home{
+
 }
 
 
