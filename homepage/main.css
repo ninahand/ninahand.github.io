@@ -18,3 +18,12 @@ h3{
     color: #000080
 }
 
+.link{
+    color: purple;
+}
+.link:visited{
+    color:hotpink;
+}
+.link:active{
+    color: yellow;
+}

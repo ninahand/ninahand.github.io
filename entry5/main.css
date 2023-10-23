@@ -52,7 +52,10 @@ p{
     position: sticky;
     top: 10px;
     right: 40px;
+    z-index: 999;
 }
+/*looked online to get this element to be at the front of the page since it kept getting stuck behind 
+my text/images. */
 
 .audio:hover .audioexplain{
         display: block;
@@ -107,122 +110,69 @@ video {
 
 }
 
-
-.paragraphone{
+.paragraphone, .paragraphtwo, .paragraphthree, .paragraphfour, .paragraphfive{
     font-family:"roc-grotesk", sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 20px;
-    width: 90%;
-    margin-left: 5%;
-    margin-top: 2%;
     color: #b39283
 }
-
-.containerone{
-    width: 100%;
-}
-.paragraphtwo{
-    font-family:"roc-grotesk", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 20px;
-    width: 40%;
+.paragraphone{
+    display:flex;
+    text-wrap: wrap;
+    width:90%;
     margin-left: 5%;
     margin-top: 2%;
-    color: #b39283;
-    text-align: left;
 }
 
 
-.lily4{
-    width: 45%;
+.containerone, .containertwo, .containerthree{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
     height: auto;
+    margin-top: 5%;
 
 }
 
+.paragraphtwo, .paragraphfour{
+    flex: 0 0 50%;
+    text-align: left;
+    width: 40%;
+    margin-right: 5%;
+}
 
-.lily4:hover{
-    background: url("images/lily2.jpg")
+.lily4, .wall{
+    float:center;
+    width: 80%;
+    height: auto;
+    margin-left: 5%;
 }
   
-.imageone{
-    text-align: right;
-    margin-right: 5%;
-    position: relative;
-    bottom: 650px;
-}
 
 .paragraphthree{
-    font-family:"roc-grotesk", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 20px;
+    flex: 0 0 50%;
+    text-align: right;
     width: 40%;
     margin-right: 5%;
     margin-top: 2%;
-    color: #b39283;
     text-align: right;
     float: right;
-    position: relative;
-    bottom: 650px;
 }
 
 .amp{
-    width: 45%;
+    float: right;   
+    width: 90%;
     height: auto;
-    text-align: left;
-    margin-left: 5%;
-    position: relative;
-    bottom: 525px;
+    margin-right:5%;
 
 }
 
-.paragraphfour{
-    font-family:"roc-grotesk", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 20px;
-    width: 40%;
-    margin-left: 5%;
-    margin-top: 2%;
-    color: #b39283;
-    text-align: left;
-    float: left;
-    position: relative;
-    bottom: 500px;
+.paragraphfive, .bottomnavigation{
+    margin-top: 5%;
 }
 
-
-.paragraphfive{
-    font-family:"roc-grotesk", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 20px;
-    width: 40%;
-    margin-left: 5%;
-    margin-top: 2%;
-    color: #b39283;
-    text-align: left;
-    float: left;
-    position: relative;
-    bottom: 1000px;
-}
-
-.imagethree{
-    text-align: right;
-    float: right;
-}
-
-.wall{ 
-    width: 45%;
-    height: auto;
-    text-align: right;
-    margin-right: 5%;
-    position: relative;
-    bottom: 725px;
-
-}
 
 .bottomnavigation{
     width: 100%; 
@@ -230,7 +180,7 @@ video {
     font-family: "gyst-variable", sans-serif;
     font-variation-settings: "wght" 600;
     text-align: center;
-    font-size:30px; 
+    font-size: 15px; 
     line-height: 40%;
     color: 	#000080;
     
@@ -244,3 +194,21 @@ video {
     float:right;
 
 }
+
+@media (max-width:850px) {
+    h1{
+        line-height: 90%;
+    }
+    h2{
+        font-size: 60px; 
+    }
+    h2:hover{
+        font-size:60px;
+    }
+    .audioexplain{
+        width:80%;
+    }
+    p{
+        font-weight: 400;
+    }
+    }
