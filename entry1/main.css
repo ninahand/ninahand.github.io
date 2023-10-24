@@ -1,0 +1,21 @@
+body{
+    margin-left: 5%;
+    background-color: #F5F5F4;
+}
+
+h1, h6{
+    text-align: center;
+}
+
+.image{
+    text-align:center;
+}
+
+@media (max-width:850px) {
+    body {
+        background-color:black;
+    }
+    h1{
+        color: #F5F5F4;
+    }
+}

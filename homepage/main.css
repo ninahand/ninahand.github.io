@@ -2,28 +2,47 @@ h3{
     font-family: "ff-providence-sans-web-pro", sans-serif;
     font-weight: 700;
     text-align: center;
+    color:#FF69B4;
 }
-.intro{
+.intro, h4{
     font-family: "ff-providence-sans-web-pro", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 50px;
-    color: forestgreen;
+    color: #1b6f1b;
+}
+.intro{
+    margin-left:2%;
+    margin-right: 2%;
+}
+h4{
+    text-align:center;
 }
 .options{
     font-family: "ff-providence-sans-web-pro", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 40px;
-    color: #000080
+    margin-left: 12%;
 }
 
 .link{
-    color: purple;
+    color: #673147;
 }
 .link:visited{
-    color:hotpink;
+    color:#FF69B4;
 }
 .link:active{
     color: yellow;
 }
+
+.lastedit{
+    margin-top: 10%;
+    display:flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
