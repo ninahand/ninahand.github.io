@@ -107,15 +107,19 @@ pre{
 }
 
 
-h7{ 
+h7, a{
 	font-family: "vendetta", serif;
 	font-weight: 600;
 	font-style: normal;
 	margin-left: 60px;
 	font-size: 20px;
 	color:#d7e3fc;
+} 
 
-	}
+a:visited{
+	color: #628db2;
+}
+	
 
 .bottomnavigation{
 	font-family: panel-sans, sans-serif;
@@ -123,7 +127,9 @@ h7{
 	color:white;
 	margin-right: 2%;
 	margin-bottom: 5%;
-	text-align: center;
+}
+.home{
+	float: left;
 }
 .nextweek{
 	float: right;

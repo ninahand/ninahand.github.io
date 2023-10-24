@@ -34,7 +34,7 @@
     font-size: 20px;
     color: #94611E;
     margin-left: 5px;
-    margin-right: 40px;
+    margin-right: 10%;
 }
 
 .body-climber {
@@ -66,7 +66,7 @@ h1{
     font-style: normal;
     font-size: 120px;
     text-align: center;
-    color:#161AE0;
+    color:#0A2472;
     margin-bottom: 1px;
 }
 
@@ -76,7 +76,7 @@ h2{
     font-style: normal;
     font-size: 70px;
     text-align: center;
-    color:#161AE0;
+    color: #0A2472;
     margin-top: 1px;
 
 }
@@ -102,7 +102,7 @@ body{
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
-    color:#161AE0;
+    color: #0A2472;
     display: inline;
     margin: 0;
     white-space: nowrap;
@@ -140,7 +140,7 @@ body{
     color:#94611E;
  
 }
-
+ 
 .bottomnavigation{
     font-family:"roc-grotesk", sans-serif;
     font-weight: 400;
@@ -158,3 +158,13 @@ body{
 .nextweek{
     float: right;
 }
+
+@media (max-width:850px) {
+    .body-climber{
+        justify-content: center;
+    }
+    .paragraphtwo{
+        margin-left: 10%
+    }
+    }
+    } 

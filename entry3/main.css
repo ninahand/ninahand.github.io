@@ -107,7 +107,9 @@ h4{
     
       /* I used ChatGPT here to help me get this image align properly in the center! */
     }
-
+.imagewrap{
+    padding: 2%;
+}
 .bottomnavigation{
     font-family:"roc-grotesk", sans-serif;
     font-weight: 400;
@@ -117,11 +119,14 @@ h4{
     color: white;
     margin-left: 2%;
     margin-right: 2%;
-    margin-bottom: 10%;
+    margin-bottom: 2%;
 }
 
 .lastweek{
     float: left;
+}
+.homepage{
+    text-align: center;
 }
 .nextweek{
     float: right;
