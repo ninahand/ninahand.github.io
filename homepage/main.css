@@ -1,5 +1,6 @@
 body{
     background-color: #F5F5F4;
+
 }
 h3{
     font-family: "ff-providence-sans-web-pro", sans-serif;
@@ -28,7 +29,6 @@ h4{
     font-size: 40px;
     margin-left: 12%;
 }
-
 .link{
     color: #673147;
 }
@@ -49,3 +49,10 @@ h4{
 
 }
 
+@media (max-width:850px) {
+    .intro, .options {
+        text-align: center;
+
+    }
+
+}
