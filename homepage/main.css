@@ -29,14 +29,34 @@ h4{
     font-size: 40px;
     margin-left: 12%;
 }
-.link{
-    color: #673147;
+.weekone:hover{
+    font-size: 45px;
 }
-.link:visited{
+.weektwo:hover{
+    font-size: 45px;
+}
+.weekthree:hover{
+    font-size: 45px;
+}
+.weekfour:hover{
+    font-size: 45px;
+}
+.weekfive:hover{
+    font-size: 45px;
+}
+.weeksix:hover{
+    font-size: 45px;
+}
+.link{
     color:#FF69B4;
 }
-.link:active{
-    color: yellow;
+
+.link:hover{
+    color:#DEC20B;
+}
+
+.link:visited{
+   color:#d1669c
 }
 
 .lastedit{
@@ -50,9 +70,34 @@ h4{
 }
 
 @media (max-width:850px) {
-    .intro, .options {
+    .intro, .options, h4 {
+        margin-left:  0px;
         text-align: center;
-
+        font-size: 40px; 
+    }
+    .options{
+        font-size: 30px;
+    }
+    .weekone:hover{
+        font-size: 35px;
+    }
+    .weektwo:hover{
+        font-size: 35px;
+    }
+    .weekthree:hover{
+        font-size: 35px;
+    }
+    .weekfour:hover{
+        font-size: 35px;
+    }
+    .weekfive:hover{
+        font-size: 35px;
+    }
+    .weeksix:hover{
+        font-size: 35px;
+    }
+    .lastedit{
+        font-size: 10px;
     }
 
 }
