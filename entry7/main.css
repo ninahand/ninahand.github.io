@@ -111,7 +111,37 @@ h2:hover{
     width: 60%;
 }
 
+.bottomnavigation{
+    width: 94%;
+    height: auto;
+    margin-top: 10%;
+    color: #c2c1b0;
+    font-family: "turnip", serif;
+    font-weight: 200;
+    font-style: normal;    
+    font-size: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
 
+}
+
+
+.lastweek{
+    float: left;
+    margin-bottom: 3%;
+}
+
+.nextweek{
+    float: right;
+    margin-bottom: 3%;
+
+}
+a{
+    color: #c2c1b0;
+}
+a:visited{
+    color: #656899;
+}
 @keyframes treegrowth{
     0% { 
         height: 1000px;

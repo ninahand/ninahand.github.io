@@ -223,15 +223,24 @@ h6{
 }
 
 .bottomnavigation{
+    width: 100%;
+    height: auto;
     font-family: ff-basic-gothic-pro, sans-serif;
     font-weight: 200;
     font-style: normal;
     font-size: 20px;
 }
 
+
 .lastweek{
     float: left;
     margin-bottom: 10%;
+}
+
+.nextweek{
+    float: right;
+    margin-bottom: 10%;
+
 }
 a{
     color: #e6ddc5;
