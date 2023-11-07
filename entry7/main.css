@@ -66,10 +66,10 @@ h2:hover{
 }
 
 .video{
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
-.writingcontainerone, .writingcontainertwo, .writingcontainerthree, .writingcontainerfour, .writingcontainerfive{
+.writingcontainerone, .writingcontainertwo, .writingcontainerthree, .writingfour, .writingcontainerfive{
     display: flex;
     flex-wrap: wrap;
     width: 30%;
@@ -96,7 +96,7 @@ h2:hover{
     width: 40%;
 }
 
-.writingcontainerfour{
+.writingfour{
     text-align: left;
     margin-left: 60%;
     margin-right: 5%;
@@ -146,4 +146,15 @@ h2:hover{
     h2{
         margin-top: -3%;
     }
+    .writingcontainerone, .writingcontainertwo, .writingcontainerthree, .writingfour, .writingcontainerfive{
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .videocontainer{
+        justify-content: center;
+    }
+   
 }
