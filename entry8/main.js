@@ -57,3 +57,11 @@ function goodEvent(){
 
 badbutton.addEventListener("click", badEvent);
 goodbutton.addEventListener("click", goodEvent)
+
+let timeDateContainer = document.querySelector(".time-date-container");
+
+function titleChange(){
+    timeDateContainer.classList.toggle("time-date-container-mouse")
+}
+
+timeDateContainer.addEventListener("mouseover",titleChange);
