@@ -67,9 +67,19 @@ h2:hover{
     width: 70%;
     height: auto;
     margin-bottom: 5%;
-    cursor: pointer; 
-
+    transition: transform 0.3s ease-in-out;
 }
+.image1:hover, .image2:hover, .image3:hover, .image3:hover, .image4:hover, .image5:hover, .image6:hover, .film13:hover, .film14:hover, .film15:hover, .film16:hover,
+.film17:hover, .film18:hover, .film19:hover, .film20:hover, .film27:hover, .film28:hover, .film29:hover, .film30:hover, .film21:hover, .film22:hover, .film23:hover, .film24:hover, 
+.film25:hover, .film26:hover {
+    transform: scale(1.1);
+}
+
+.film1:hover, .film2:hover, .film3:hover, .film4:hover, .film5:hover, .film6:hover, .film7:hover, .film8:hover,
+.film9:hover, .film10:hover, .film11:hover, .film12:hover{
+    transform: scale(1.5);
+}
+
 
 .gallery, .gallery21, .gallery22 {
     display: flex;
@@ -87,14 +97,16 @@ h2:hover{
 .film1, .film2 {
     width: 15%;
     height: auto;
+    transition: transform 0.3s ease-in-out;
 }
 
 .film3, .film4{
     width: 25%;
     height: 15%;
+    transition: transform 0.3s ease-in-out;
 }
 
-.pointandshoot, .words {
+.pointandshoot, .words, .morewordsagainagain{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -110,6 +122,7 @@ h2:hover{
 .film5, .film6, .film7, .film8, .film9, .film10, .film11, .film12{
     width: 20%;
     height: 10%;
+    transition: transform 0.3s ease-in-out;
 
 }
 .fourthcontainer, .fifthcontainer{
@@ -139,9 +152,34 @@ h2:hover{
 }
 
 .film13, .film14, .film15, .film16, .film17, .film18, .film19, .film20, .film21, .film22, .film23, .film24, .film25, .film26 {
-    width: 48%; /* Adjust width to leave space between images */
+    width: 48%;
     height: auto;
-    margin-bottom: 20px; /* Adjust as needed for bottom margin */
-    margin-right: 2%; /* Adjust as needed for right margin */
-    cursor: pointer; 
+    margin-bottom: 20px;
+    margin-right: 2%;
+    transition: transform 0.3s ease-in-out;
 }
+
+.goodones, .dudsshow { 
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+
+  .film27, .film28, .film29, .film30 {
+    width: 20%;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .goodoneshide, .duds {
+    display: none;
+  }
+
+  .dudsshow {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .morewordsagainagain{
+    margin-top: 5%;
+  }
