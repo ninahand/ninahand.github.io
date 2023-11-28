@@ -1,0 +1,22 @@
+body{
+    background-color: #f5eeed;
+}
+.date{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.dateDivFun{
+    color: purple;
+    text-align: center;
+    font-family: "gyst-variable",sans-serif;
+    font-variation-settings: 'wght'300;
+    font-size: 70px;
+    transition: font-variation-settings 0.3s ease; 
+}
+
+.dateDivFun:hover{
+    color: red;
+    font-variation-settings: 'wght'600;
+}
