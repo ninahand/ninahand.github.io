@@ -1,22 +1,40 @@
 body{
-    background-color: #f5eeed;
+    background-color: #d44e42;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+
+.clock{
+    margin-top: 10%;
+    width: 100px;
+    transition: 0.3s ease; 
+}
+
+.clock:hover{
+    width: 120px;
+    cursor: pointer;
 }
 .date{
     display: flex;
-    height: 100vh;
     justify-content: center;
     align-items: center;
+    padding: 5%;
 }
 .dateDivFun{
-    color: purple;
+    color: #edebe8;
     text-align: center;
     font-family: "gyst-variable",sans-serif;
     font-variation-settings: 'wght'300;
     font-size: 70px;
     transition: font-variation-settings 0.3s ease; 
+    transition: 0.5s ease;
 }
 
 .dateDivFun:hover{
-    color: red;
+    color: #6b2620;
     font-variation-settings: 'wght'600;
 }
