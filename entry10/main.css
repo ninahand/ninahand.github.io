@@ -2,7 +2,7 @@ body{
     background-color: #ebe7dd
 }
 
-.intro{
+.intro, .outro{
     font-family: "ff-providence-sans-web-pro", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -11,6 +11,10 @@ body{
     padding: 5%;
     font-size: 20px;
     line-height: 30px;
+}
+
+.outro{
+    color: #1b6f1b;;
 }
 .header{
     font-family: "bd-caramel-variable", sans-serif;
@@ -125,13 +129,13 @@ body{
     line-height: 40px;
 }
 
-.one, .two, .three, .four, .five, .six, .seven{
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten{
     display: flex;
     margin-left: 5%;
     margin-right: 5%;
 }
 
-.rulebuttonone, .rulebuttontwo, .rulebuttonthree, .rulebuttonfour, .rulebuttonfive, .rulebuttonsix, .rulebuttonseven{
+.rulebuttonone, .rulebuttontwo, .rulebuttonthree, .rulebuttonfour, .rulebuttonfive, .rulebuttonsix, .rulebuttonseven, .rulebuttoneight, .rulebuttonnine, .rulebuttonten{
     font-family: "bd-caramel-variable", sans-serif;
     font-variation-settings: 'BUBL' 100;
     font-size: 40px;
@@ -139,7 +143,7 @@ body{
     height: 100px;
     border-radius: 50%;
     background-color: #e2ff59;
-    color: green;
+    color:  #1b6f1b;;
     text-align: center;
     line-height: 100px;
     opacity: 0.75;
@@ -147,15 +151,15 @@ body{
     margin-bottom: 5%;
 }
 
-.rulebuttonone:hover, .rulebuttontwo:hover, .rulebuttonthree:hover, .rulebuttonfour:hover,  .rulebuttonfive:hover, .rulebuttonsix:hover,  .rulebuttonseven:hover{
+.rulebuttonone:hover, .rulebuttontwo:hover, .rulebuttonthree:hover, .rulebuttonfour:hover,  .rulebuttonfive:hover, .rulebuttonsix:hover,  .rulebuttonseven:hover, .rulebuttoneight:hover, .rulebuttonnine:hover, .rulebuttonten:hover{
     opacity: 1;
 }
 
-.ruleonehide, .ruletwohide, .rulethreehide, .rulefourhide, .rulefivehide, .rulesixhide, .rulesevenhide {
+.ruleonehide, .ruletwohide, .rulethreehide, .rulefourhide, .rulefivehide, .rulesixhide, .rulesevenhide, .ruleeighthide, .ruleninehide, .ruletenhide {
     display: none;
 }
 
-.ruleone, .ruletwo, .rulethree, .rulefour, .rulefive, .rulesix, .ruleseven{
+.ruleone, .ruletwo, .rulethree, .rulefour, .rulefive, .rulesix, .ruleseven, .ruleeight, .rulenine, .ruleten{
     display:flex;
     width: 60%;
     font-family: "ff-providence-sans-web-pro", sans-serif;

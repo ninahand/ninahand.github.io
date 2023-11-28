@@ -33,18 +33,33 @@ buttontwo.addEventListener("click", changetwo);
 
 let rulebuttonone = document.querySelector(".rulebuttonone");
 let ruleonehide = document.querySelector(".ruleonehide");
+
 let rulebuttontwo = document.querySelector(".rulebuttontwo");
 let ruletwohide = document.querySelector(".ruletwohide");
+
 let rulebuttonthree = document.querySelector(".rulebuttonthree");
 let rulethreehide = document.querySelector(".rulethreehide");
+
 let rulebuttonfour= document.querySelector(".rulebuttonfour");
 let rulefourhide = document.querySelector(".rulefourhide");
+
 let rulebuttonfive= document.querySelector(".rulebuttonfive");
 let rulefivehide = document.querySelector(".rulefivehide");
+
 let rulebuttonsix= document.querySelector(".rulebuttonsix");
 let rulesixhide = document.querySelector(".rulesixhide");
+
 let rulebuttonseven= document.querySelector(".rulebuttonseven");
 let rulesevenhide = document.querySelector(".rulesevenhide");
+
+let rulebuttoneight= document.querySelector(".rulebuttoneight");
+let ruleeighthide = document.querySelector(".ruleeighthide");
+
+let rulebuttonnine= document.querySelector(".rulebuttonnine");
+let ruleninehide = document.querySelector(".ruleninehide");
+
+let rulebuttonten= document.querySelector(".rulebuttonten");
+let ruletenhide = document.querySelector(".ruletenhide");
 
 function showone() {
     ruleonehide.classList.toggle("ruleone");
@@ -67,6 +82,15 @@ function showsix() {
 function showseven() {
     rulesevenhide.classList.toggle("ruleseven");
 }
+function showeight() {
+    ruleeighthide.classList.toggle("ruleeight");
+}
+function shownine() {
+    ruleninehide.classList.toggle("rulenine");
+}
+function showten() {
+    ruletenhide.classList.toggle("ruleten");
+}
 
 
 
@@ -77,6 +101,9 @@ rulebuttonfour.addEventListener("click", showfour);
 rulebuttonfive.addEventListener("click", showfive);
 rulebuttonsix.addEventListener("click", showsix);
 rulebuttonseven.addEventListener("click", showseven);
+rulebuttoneight.addEventListener("click", showeight);
+rulebuttonnine.addEventListener("click", shownine);
+rulebuttonten.addEventListener("click", showten);
 
 
 
