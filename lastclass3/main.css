@@ -1,0 +1,25 @@
+body{
+    background-color: #7781a3;
+}
+
+
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.dateDivFun{
+    color: #edebe8;
+    text-align: center;
+    font-family: "gyst-variable",sans-serif;
+    font-variation-settings: 'wght'300;
+    font-size: 70px;
+    transition: font-variation-settings 0.3s ease; 
+    transition: 0.5s ease;
+}
+
+.otherTextFun{
+    color: yellow;
+}

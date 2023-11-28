@@ -1,7 +1,7 @@
 let currentDate = new Date();
 let date = document.querySelector(".date");
 let button = document.querySelector(".button");
-    let dateDiv = document.createElement("div");
+let dateDiv = document.createElement("div");
 
 function displayDate (){
     let currentDate = new Date();
