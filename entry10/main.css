@@ -1,0 +1,169 @@
+body{
+    background-color: #ebe7dd
+}
+
+.intro{
+    font-family: "ff-providence-sans-web-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    color: #333;
+    padding: 5%;
+    font-size: 20px;
+    line-height: 30px;
+}
+.header{
+    font-family: "bd-caramel-variable", sans-serif;
+    font-variation-settings: 'BUBL' 100;
+    transition: font-variation-settings 0.3s ease; 
+    color:#c0d656;
+    font-size: 80px;
+    margin-bottom: 5%;
+}
+
+.header:hover{
+    font-variation-settings: 'BUBL' 400; 
+
+}
+.nextbox{
+    display: flex;
+    justify-content: center;
+}
+.changeone {
+    background-color: #e2ff59;
+    font-family: courier;
+}
+.changefinal {
+    font-family: "ff-providence-sans-web-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #333;
+    padding: 5%;
+    width: 60%;
+    background: linear-gradient(266deg, #e2ff59, #3974e3);
+    background-size: 400% 400%;
+    -webkit-animation: gradientAnimation 13s ease infinite;
+    -moz-animation: gradientAnimation 13s ease infinite;
+    animation: gradientAnimation 13s ease infinite;
+    animation: gradientAnimation 4s linear infinite;
+}
+
+
+@-webkit-keyframes gradientAnimation {
+    0% { background-position: 0% 68%; }
+    50% { background-position: 100% 33%; }
+    100% { background-position: 0% 68%; }
+}
+
+@-moz-keyframes gradientAnimation {
+    0% { background-position: 0% 68%; }
+    50% { background-position: 100% 33%; }
+    100% { background-position: 0% 68%; }
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 68%; }
+    50% { background-position: 100% 33%; }
+    100% { background-position: 0% 68%; }
+}
+
+
+.caption, .captiontwo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.firsttext, .secondtext, .thirdtext{
+    width: 60%;
+    font-family: "ff-providence-sans-web-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #333;
+    padding: 5%;
+}
+
+
+.firsttexthide, .secondtexthide, .thirdtexthide{
+    display: none;
+}
+
+.button, .buttontwo {
+    font-family: "ff-providence-sans-web-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    color: #333;
+    width: 14%;
+    padding: 20px 50px;
+    border-radius: 30px;
+    background-color: #e2ff59;
+    opacity: 0.75;
+    color: #333;
+    font-size: 60px;
+    font-size: 20px;
+    text-align: center;
+    transition: all 300ms;
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.button:hover, .buttontwo:hover{
+    opacity: 1;
+    color: #1b6f1b;
+    cursor: pointer;
+}
+
+.top{
+    font-family: "ff-providence-sans-web-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    color: #1b6f1b;
+    padding: 5%;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.one, .two, .three, .four, .five, .six, .seven{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.rulebuttonone, .rulebuttontwo, .rulebuttonthree, .rulebuttonfour, .rulebuttonfive, .rulebuttonsix, .rulebuttonseven{
+    font-family: "bd-caramel-variable", sans-serif;
+    font-variation-settings: 'BUBL' 100;
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #e2ff59;
+    color: green;
+    text-align: center;
+    line-height: 100px;
+    opacity: 0.75;
+    cursor: pointer;
+    margin-bottom: 5%;
+}
+
+.rulebuttonone:hover, .rulebuttontwo:hover, .rulebuttonthree:hover, .rulebuttonfour:hover,  .rulebuttonfive:hover, .rulebuttonsix:hover,  .rulebuttonseven:hover{
+    opacity: 1;
+}
+
+.ruleonehide, .ruletwohide, .rulethreehide, .rulefourhide, .rulefivehide, .rulesixhide, .rulesevenhide {
+    display: none;
+}
+
+.ruleone, .ruletwo, .rulethree, .rulefour, .rulefive, .rulesix, .ruleseven{
+    display:flex;
+    width: 60%;
+    font-family: "ff-providence-sans-web-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    color: #1b6f1b;
+    padding: 5%;
+    font-size: 30px;
+    line-height: 40px;
+}
