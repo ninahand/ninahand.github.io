@@ -94,3 +94,27 @@
 .badwordsshow, .goodwordsshow{
     display: block;
 }
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    font-family: "ff-providence-sans-web-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+
+}
+
+.link{
+  color: #bec2a3;
+}
+
+.link:hover{
+    color: #9fab55;
+    font-size: 25px;
+    transition: 0.5s ease;
+}

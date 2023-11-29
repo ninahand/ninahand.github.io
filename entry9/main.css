@@ -183,3 +183,22 @@ h2:hover{
   .morewordsagainagain{
     margin-top: 5%;
   }
+
+.bottomnavigation{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    width: 80%;
+    font-family: "roca", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: #fc2c03; 
+
+}
+
+.link:hover{
+    color: #911e07; 
+    font-size: 25px;
+    transition: 0.5s ease;
+}

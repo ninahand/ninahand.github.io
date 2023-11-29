@@ -171,3 +171,25 @@ body{
     font-size: 30px;
     line-height: 40px;
 }
+
+.bottomnavigation {
+    display: flex;
+    justify-content: space-between; 
+    width: 80%;
+    font-family: "bd-caramel-variable", sans-serif;
+    font-variation-settings: 'BUBL' 100;
+    color: #1b6f1b;
+    font-size: 30px;
+    margin-bottom: 5%;
+    margin-left: 10%;
+}
+
+
+
+.link:hover, .link2:hover {
+    color: #e2ff59;
+    font-size: 40px;
+    font-variation-settings: 'BUBL' 400;
+    transition: font-variation-settings 1s ease;
+    transition: 1s ease;
+}
