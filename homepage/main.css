@@ -2,7 +2,7 @@ body{
     background-color: #F5F5F4;
 
 }
-h3{
+h3, pre{
     font-family: "ff-providence-sans-web-pro", sans-serif;
     font-weight: 700;
     text-align: center;
@@ -29,35 +29,31 @@ h4{
     font-size: 40px;
     margin-left: 12%;
 }
-.weekone:hover{
-    font-size: 45px;
-}
-.weektwo:hover{
-    font-size: 45px;
-}
-.weekthree:hover{
-    font-size: 45px;
-}
-.weekfour:hover{
-    font-size: 45px;
-}
-.weekfive:hover{
-    font-size: 45px;
-}
-.weeksix:hover{
-    font-size: 45px;
-}
-.weekseven:hover{
-    font-size: 45px;
-}
+
 .link{
     color:#FF69B4;
 }
+
+.speciallink{
+    color:#FF69B4;
+}
+
 .link:visited{
     color:#d1669c
  }
+
+ .speciallink:visited{
+    color:#d1669c
+}
+
 .link:hover{
     color:#DEC20B;
+    font-size: 45px;
+}
+
+.speciallink:hover{
+    color:#DEC20B;
+    font-size: 55px;
 }
 
 .lastedit{
@@ -79,23 +75,11 @@ h4{
     .options{
         font-size: 30px;
     }
-    .weekone:hover{
+    .link:hover{
         font-size: 35px;
     }
-    .weektwo:hover{
-        font-size: 35px;
-    }
-    .weekthree:hover{
-        font-size: 35px;
-    }
-    .weekfour:hover{
-        font-size: 35px;
-    }
-    .weekfive:hover{
-        font-size: 35px;
-    }
-    .weeksix:hover{
-        font-size: 35px;
+    .speciallink:hover{
+        font-size: 45px;
     }
     .lastedit{
         font-size: 10px;
