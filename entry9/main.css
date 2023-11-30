@@ -67,6 +67,9 @@ h2:hover{
     width: 70%;
     height: auto;
     margin-bottom: 5%;
+    max-width: 600px; 
+    max-height: 600px;
+    object-fit: cover;
     transition: transform 0.3s ease-in-out;
 }
 .image1:hover, .image2:hover, .image3:hover, .image3:hover, .image4:hover, .image5:hover, .image6:hover, .film13:hover, .film14:hover, .film15:hover, .film16:hover,
@@ -201,4 +204,27 @@ h2:hover{
     color: #911e07; 
     font-size: 25px;
     transition: 0.5s ease;
+}
+
+@media (max-width:850px) {
+    .firstcontainer, .fourthcontainer, .fifthcontainer{
+        flex-direction: column;
+    }
+    .lefttext{
+        font-size: 20px;
+        width: 90%;
+        text-align: left;
+        margin-left: 2%;
+    }
+    .morewords, .morewordsagain{
+        width: 90%;
+        text-align: right;
+    }
+    .rightpanel{
+        width: 95%;
+        text-align: center
+    }
+    .pointandshoot, .words, .morewords, .morewordsagain, .morewordsagainagain {
+        font-size: 20px;
+    }
 }

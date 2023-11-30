@@ -109,7 +109,7 @@ body{
     font-size: 20px;
     text-align: center;
     transition: all 300ms;
-    margin-right: 10px; /* Adjust the margin as needed */
+    margin-right: 10px;
 }
 
 .button:hover, .buttontwo:hover{
@@ -192,4 +192,37 @@ body{
     font-variation-settings: 'BUBL' 400;
     transition: font-variation-settings 1s ease;
     transition: 1s ease;
+}
+
+@media (max-width:850px) {
+    .ruleone, .ruletwo, .rulethree, .rulefour, .rulefive, .rulesix, .ruleseven, .ruleeight, .rulenine, .ruleten { 
+        font-size: 20px;
+    }
+    .rulebuttonone, .rulebuttontwo, .rulebuttonthree, .rulebuttonfour, .rulebuttonfive, .rulebuttonsix, .rulebuttonseven, .rulebuttoneight, .rulebuttonnine, .rulebuttonten{
+        font-family: "bd-caramel-variable", sans-serif;
+        font-variation-settings: 'BUBL' 100;
+        font-size: 20px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #e2ff59;
+        color:  #1b6f1b;;
+        text-align: center;
+        line-height: 50px;
+        opacity: 0.75;
+        cursor: pointer;
+        margin-bottom: 5%;
+    }
+    .button, .buttontwo {
+        width: 10%;
+        border-radius: 20px;
+        font-size: 15px;
+    }
+    .changeagain, .caption{
+        margin-top: 10%;
+    }
+    .header{
+        margin-top: -15%;
+        line-height: 70px;
+    }
 }

@@ -118,3 +118,14 @@
     font-size: 25px;
     transition: 0.5s ease;
 }
+
+@media (max-width:850px) {
+    .intro, .secondquestion{
+        font-size: 30px;
+    }
+    .longtimebutton, .recentlybutton, .goodbutton, .badbutton{
+        width: 20%;
+        padding: 10px 40px;
+        border-radius: 25px;
+    }
+}
