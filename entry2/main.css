@@ -135,6 +135,11 @@ a:visited{
 	float: right;
 }
 
+.link:hover{
+	color: #d7e3fc;
+	font-size:25px;
+	transition: 0.3s ease;
+}
 
 
 

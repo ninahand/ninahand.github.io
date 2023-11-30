@@ -119,7 +119,6 @@ h4{
     color: white;
     margin-left: 2%;
     margin-right: 2%;
-    margin-bottom: 2%;
 }
 
 .lastweek{
@@ -133,4 +132,10 @@ h4{
 }
 a{
     color: white;
+}
+.link:hover{
+    color: #8893b5;
+    font-size: 25px;
+    transition: 0.3s ease;
+
 }

@@ -100,7 +100,7 @@ h2:hover{
     text-align: left;
     margin-left: 60%;
     margin-right: 5%;
-    margin-top: 10%;
+    margin-top: 30%;
     width: 30%;
 }
 
@@ -112,7 +112,9 @@ h2:hover{
 }
 
 .bottomnavigation{
-    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
     height: auto;
     margin-top: 10%;
     color: #c2c1b0;
@@ -120,27 +122,41 @@ h2:hover{
     font-weight: 200;
     font-style: normal;    
     font-size: 20px;
-    margin-left: 3%;
+    margin-left: 5%;
     margin-right: 3%;
+    cursor: pointer;
 
 }
 
 
 .lastweek{
-    float: left;
     margin-bottom: 3%;
+    cursor: pointer;
 }
 
-.nextweek{
-    float: right;
-    margin-bottom: 3%;
+.home{
+   margin-right: 5%;
+}
 
+
+.nextweek{
+    margin-bottom: 3%;
+    cursor: pointer;
 }
 a{
     color: #c2c1b0;
+    cursor: pointer;
 }
 a:visited{
     color: #656899;
+}
+
+a:hover{
+    color: #d3d8de;
+    cursor: pointer;
+    font-size: 25px;
+    transition: 0.3s ease;
+
 }
 @keyframes treegrowth{
     0% { 
@@ -177,11 +193,21 @@ a:visited{
         margin-top: -3%;
     }
     .writingcontainerone, .writingcontainertwo, .writingcontainerthree, .writingfour, .writingcontainerfive{
-        width: 100%;
+        width: 80%;
         margin-top: 5%;
         margin-bottom: 2%;
         margin-left: 2%;
         margin-right: 2%;
+    }
+
+    .writingcontainerone, .writingcontainerthree{
+        text-align: left;
+    }
+    .writingcontainertwo, .writingfour{
+        text-align: right;
+    }
+    .writingcontainerfive{
+        text-align: center;
     }
     .videocontainer{
         justify-content: center;

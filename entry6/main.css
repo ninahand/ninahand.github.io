@@ -234,16 +234,25 @@ h6{
 
 .lastweek{
     float: left;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
+}
+.homepage{
+    text-align: center;
+    margin-bottom: 5%;
 }
 
 .nextweek{
     float: right;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 
 }
 a{
     color: #e6ddc5;
+}
+.link:hover{
+    font-size: 25px;
+    transition: 0.3s ease;
+    color: #faf9f5;
 }
 @media (max-width:850px) {
     body {

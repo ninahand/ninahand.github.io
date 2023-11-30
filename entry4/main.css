@@ -158,7 +158,15 @@ body{
 .nextweek{
     float: right;
 }
+.homepage{
+    text-align: center;
+}
 
+.link:hover{
+    color: #fa4407;
+    font-size: 25px;
+    transition: 0.3s ease;
+}
 @media (max-width:850px) {
     .body-climber{
         justify-content: center;
@@ -167,4 +175,3 @@ body{
         margin-left: 10%
     }
     }
-    } 
