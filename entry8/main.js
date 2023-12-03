@@ -9,7 +9,7 @@ function updateTimeAndDate() {
     var backgroundColor;
     if (currentHour>=5 && currentHour < 12)
     {
-        backgroundColor = '#e5e8d1';
+        backgroundColor = '#c0c7b5';
     }
     else if (currentHour>=12 && currentHour < 20){
         backgroundColor = '#66756b';

@@ -162,23 +162,30 @@ h2:hover{
     transition: transform 0.3s ease-in-out;
 }
 
-.goodones, .dudsshow { 
+.goodones, .dudsshow, .dudsshow2, .goodones2 { 
     width: 100%;
     display: flex;
     justify-content: space-around;
     cursor: pointer;
   }
 
+.dudsshow2, .goodones2{
+    margin-top: 5%;
+}
+.film31, .film32{
+    width: 80%;
+}
+
   .film27, .film28, .film29, .film30 {
     width: 20%;
     transition: transform 0.3s ease-in-out;
   }
 
-  .goodoneshide, .duds {
+  .goodoneshide, .duds, .goodoneshide2, .duds2 {
     display: none;
   }
 
-  .dudsshow {
+  .dudsshow, .dudsshow2 {
     display: flex;
     justify-content: space-around;
   }
