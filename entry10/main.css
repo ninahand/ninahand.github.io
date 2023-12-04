@@ -1,5 +1,5 @@
 body{
-    background-color: #ebe7dd
+    background-color: #2b3b2f;
 }
 
 .intro, .outro{
@@ -7,7 +7,7 @@ body{
     font-weight: 700;
     font-style: normal;
     text-align: center;
-    color:#1b6f1b;;
+    color:#9ab5a1;
     padding: 5%;
     font-size: 20px;
     line-height: 30px;
@@ -30,9 +30,17 @@ body{
     display: flex;
     justify-content: center;
 }
+.change, .changeagain{
+    color:white;
+    width: 90%;
+}
+.change{
+    margin-left: 5%;
+}
 .changeone {
     background-color: #e2ff59;
     font-family: courier;
+    color: black;
 }
 .changefinal {
     font-family: "ff-providence-sans-web-pro", sans-serif;
@@ -81,7 +89,7 @@ body{
     font-weight: 700;
     font-style: normal;
     font-size: 20px;
-    color: #333;
+    color: #9ab5a1;
     padding: 5%;
 }
 
@@ -111,7 +119,7 @@ body{
 
 .button:hover, .buttontwo:hover{
     opacity: 1;
-    color: #1b6f1b;
+    color: #9ab5a1;
     cursor: pointer;
 }
 
@@ -120,7 +128,7 @@ body{
     font-weight: 700;
     font-style: normal;
     text-align: left;
-    color: #1b6f1b;
+    color: #9ab5a1;
     padding: 5%;
     font-size: 30px;
     line-height: 40px;
@@ -140,7 +148,7 @@ body{
     height: 100px;
     border-radius: 50%;
     background-color: #e2ff59;
-    color:  #1b6f1b;;
+    color:  #1b6f1b;
     text-align: center;
     line-height: 100px;
     opacity: 0.75;
@@ -150,6 +158,7 @@ body{
 
 .rulebuttonone:hover, .rulebuttontwo:hover, .rulebuttonthree:hover, .rulebuttonfour:hover,  .rulebuttonfive:hover, .rulebuttonsix:hover,  .rulebuttonseven:hover, .rulebuttoneight:hover, .rulebuttonnine:hover, .rulebuttonten:hover{
     opacity: 1;
+    color: #9ab5a1;
 }
 
 .ruleonehide, .ruletwohide, .rulethreehide, .rulefourhide, .rulefivehide, .rulesixhide, .rulesevenhide, .ruleeighthide, .ruleninehide, .ruletenhide {
@@ -163,7 +172,7 @@ body{
     font-weight: 700;
     font-style: normal;
     text-align: left;
-    color: #1b6f1b;
+    color: #c0d656;
     padding: 5%;
     font-size: 30px;
     line-height: 40px;
@@ -175,13 +184,14 @@ body{
     width: 80%;
     font-family: "bd-caramel-variable", sans-serif;
     font-variation-settings: 'BUBL' 100;
-    color: #1b6f1b;
     font-size: 30px;
     margin-bottom: 5%;
     margin-left: 10%;
 }
 
-
+.link:visited, .link2:visited{
+    color: #644f73;
+}
 
 .link:hover, .link2:hover {
     color: #e2ff59;
@@ -189,6 +199,10 @@ body{
     font-variation-settings: 'BUBL' 400;
     transition: font-variation-settings 1s ease;
     transition: 1s ease;
+}
+
+.link, .link2{
+    color: #1b6f1b;
 }
 
 @media (max-width:850px) {

@@ -1,4 +1,15 @@
 
+@font-face {
+    font-family: 'LORE';
+    src: url('fonts/LORE-Regular.woff2') format('woff2'),
+    url('fonts/LORE-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    }
+.UglyDave {
+        font-family: 'LORE';
+      }
 
 body{
     background-color: #2B2D2F;
@@ -11,9 +22,7 @@ pre{
     color: #981208;
 }
 h1{
-    font-family: "ff-providence-sans-web-pro", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+    font-family: "Ugly Dave";
     text-align: center;
     font-size: 100px;
     line-height: 70%;
@@ -51,8 +60,7 @@ h2:hover + .hiddentext {
 }
 
 h6{
-    font-family: "ff-providence-sans-web-pro", sans-serif;
-    font-weight: 700;
+    font-family: "Ugly Dave";
     font-style: italic;
     text-align: center;
     font-size: 30px;
@@ -225,9 +233,7 @@ h6{
 .bottomnavigation{
     width: 100%;
     height: auto;
-    font-family: ff-basic-gothic-pro, sans-serif;
-    font-weight: 200;
-    font-style: normal;
+    font-family: "Ugly Dave";
     font-size: 20px;
 }
 
@@ -252,7 +258,7 @@ a{
 .link:hover{
     font-size: 25px;
     transition: 0.3s ease;
-    color: #faf9f5;
+    color:  #981208;
 }
 @media (max-width:850px) {
     body {
