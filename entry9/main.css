@@ -74,8 +74,9 @@ h2:hover{
 }
 .image1:hover, .image2:hover, .image3:hover, .image3:hover, .image4:hover, .image5:hover, .image6:hover, .film13:hover, .film14:hover, .film15:hover, .film16:hover,
 .film17:hover, .film18:hover, .film19:hover, .film20:hover, .film27:hover, .film28:hover, .film29:hover, .film30:hover, .film21:hover, .film22:hover, .film23:hover, .film24:hover, 
-.film25:hover, .film26:hover {
+.film25:hover, .film26:hover, .film31:hover{
     transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
 }
 
 .film1:hover, .film2:hover, .film3:hover, .film4:hover, .film5:hover, .film6:hover, .film7:hover, .film8:hover,

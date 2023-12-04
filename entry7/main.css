@@ -68,6 +68,18 @@ h2:hover{
 .video{
     margin-top: 10%;
 }
+.one, .four{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    align-items: center;
+}
+.two{
+    display:flex;
+    align-items: center;
+}
+
+
 
 .writingcontainerone, .writingcontainertwo, .writingcontainerthree, .writingfour, .writingcontainerfive{
     display: flex;
@@ -81,6 +93,42 @@ h2:hover{
     margin-top: 5%;
     margin-left: 5%;
     margin-right:5%;
+}
+
+.imagecontainerone, .imagecontainertwo, .imagecontainerthree, .imagecontainerfour{
+  width: 40%
+}
+.imagecontainerfour{
+   margin-left: 10%;
+}
+.imagecontainerfive{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.spacecontainer{
+    width: 20%;
+}
+.imageone, .imagetwo, .imagethree, .imagefour{
+    width: 100%;
+    opacity: 0.25;
+    transition: 0.3s ease-in-out;
+}
+
+.imagefive{
+    width: 40%;
+    opacity: 0.25;
+    transition: 0.3s ease-in-out;
+    margin-top: 10%;
+}
+
+.imageone:hover, .imagetwo:hover, .imagethree:hover, .imagefour:hover, .imagefive:hover {
+    opacity: 1;
+  
+}
+.imagethree{
+    margin-top: 15%;
 }
 
 .writingcontainertwo{
