@@ -1,0 +1,222 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+.navigation{
+    display: flex;
+    width: 100vh;
+    position:fixed;
+    font-size: 16px;
+    color: #999999;
+    background-color: white;
+}
+
+.left-navigation{
+    margin-right: auto;
+}
+
+.right-navigation{
+    margin-left: auto;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+}
+
+.image-container{
+    height: 100vh;
+    width: 60vw;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+   
+}
+
+.sidebar{
+    margin-left: 3%;
+    width: 30vw;
+}
+
+.image{
+    object-fit: contain;
+    width: 85%;
+    height: 85%;
+    position: fixed;
+}
+
+.imagetitle{
+    color: #585858;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 20px;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.3);
+}
+.side-side{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(153, 153, 153, 0.8);
+    font-size: 13px;
+    padding: 8px;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.3);
+}
+.flag{
+    font-weight: bold;
+}
+.updates{
+    color: rgba(153, 153, 153, 0.8);
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+span{
+    font-weight: bold;
+}
+.actions{
+    font-weight: bold;
+    font-size: 12px;
+    padding: 8px;
+    color: rgba(88, 88, 88, 0.9);
+    line-height: 18px;
+}
+.connections-toggle-container{
+    display: flex;
+    justify-content: center;
+}
+
+.content-toggle{
+    width: 50%;
+    text-align: center;
+    padding: 1rem 2rem;
+    font-size: 12px;
+    padding: 8px;
+    color: rgba(88, 88, 88, 0.5);
+    border-bottom: 1px solid rgba(88, 88, 88, 0.3);
+}
+.content-toggle.active{
+    color: rgba(88, 88, 88, 0.9);
+    border-bottom: 1px solid black;
+}
+.my-connection{
+    border: 2px solid  rgba(182, 2, 2, 0.5);
+    padding: 16px;
+}
+.red-connection-title, .red-block-number, .red-author{
+   color: rgb(182, 2, 2);
+}
+
+.my-connection:hover{
+    border: 2px solid rgba(182, 2, 2, 1);
+}
+.connect-box{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(88, 88, 88, 1);
+    border: 2px solid rgba(75, 52, 103, 0.5);
+    margin:  20px 115px 20px 115px;
+    padding: 10px;
+}
+
+.connect-box:hover{
+    border: 2px solid rgba(75, 52, 103, 1);
+}
+
+.other-connection{
+    border: 2px solid rgba(75, 52, 103, 0.5);
+}
+.other-connection, .my-connection, .green-connection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: arial;
+    padding: 16px;
+    margin: 10px;
+}
+
+.other-connection:hover{
+    border: 2px solid rgba(75, 52, 103, 1);
+}
+.connection-title, .red-connection-title, .green-connection-title{
+    font-size: 16px;
+}
+.block-number, .author, .red-block-number, .red-author, .green-block-number, .green-author{
+    font-size: 12px;
+}
+.connection-title-number, .red-connection-title-number{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-between;
+}
+.january24, .december23, .november23, .october23, .september23, .february23, .october22, .september22, .august22, .july22, .june22, .may22, .april22, .march22{
+    padding: 10px;
+}
+.other-connect-1, .other-connect-2, .other-connect-3, .other-connect-4, .other-connect-5{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.month{
+    text-align: left;
+    color: #999999;
+    margin-left: 6px;
+}
+
+.green-connection{
+    border: 2px solid rgba(23, 172, 16, 0.5);
+}
+
+.green-connection-title, .green-block-number, .green-author{
+    color: rgba(23, 172, 16, 1);
+}
+
+.green-connection:hover{
+    border: 2px solid rgba(23, 172, 16, 1);
+}
+
+.connection-qualify{
+    font-family: arial; 
+    color: #999999;
+    text-align: center;
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit
+}
+a{
+    text-decoration: none;
+    color: inherit
+}
+a:hover{
+    color: rgba(88, 88, 88, 1);
+}
+
+@media only screen and (max-width: 900px) {
+    .image-container{
+        height: 100vh;
+        width: 100vw;
+        object-fit: contain;
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+       
+    }
+    .image{
+        object-fit: contain;
+        width: 95%;
+        height: 95%;
+        position: relative;
+    }
+
+    .sidebar{
+        width: 90vw;
+    }
+    
+}
