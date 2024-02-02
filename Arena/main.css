@@ -80,8 +80,11 @@ span{
     font-weight: bold;
     font-size: 12px;
     padding: 8px;
-    color: rgba(88, 88, 88, 0.9);
+    color: rgba(88, 88, 88, 0.8);
     line-height: 18px;
+}
+.actions:hover{
+    color: rgba(88, 88, 88, 1);
 }
 .connections-toggle-container{
     display: flex;
