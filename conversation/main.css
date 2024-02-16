@@ -22,7 +22,6 @@
 
 html{
     font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
@@ -44,7 +43,15 @@ p{
     color: #8e8f81;
 }
 
-
+.stop{
+    width: 100vw;
+    font-family: 'monument_grotesk';
+    font-weight: medium;
+    color: #8e8f81;
+    font-size: 3rem;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
 .container_intro{
     display: flex;
     flex-wrap: wrap;
